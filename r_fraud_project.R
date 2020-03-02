@@ -1,4 +1,4 @@
-## Projeto - AdTracking Fraud Detection Challenge
+## Projeto DSA - AdTracking Fraud Detection Challenge
 
 setwd("C:/FCD/BigDataRAzure/Projetos/Projeto01-fraud")
 getwd()
@@ -52,10 +52,6 @@ table(data_balanced$is_attributed)
 
 
 ####### Construindo o modelo ####### 
-
-## Falhei miseravelmente
-# importance <- randomForest(is_attributed ~ ., data= dados_treino, importance=TRUE, proximity=TRUE)
-# varImp(importance)
 
 # Feature Selection - Avaliando importancia das variaveis 
 importancia <- randomForest(is_attributed ~ ., 
