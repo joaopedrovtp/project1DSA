@@ -1,6 +1,6 @@
 # Projeto 1 - Detecção de Fraudes no Tráfego de Cliques
 
-Projeto criado como caso de estudo da formação de Cientista de Dados da Data Science Academy.
+Projeto criado como estudo de caso para formação de Cientista de Dados da Data Science Academy.
 
 Descrição do projeto: 
 
